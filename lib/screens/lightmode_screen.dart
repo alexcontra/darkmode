@@ -11,6 +11,12 @@ class LightMode extends StatefulWidget {
 class _LightModeState extends State<LightMode> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.transparent,
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+      ),
+    );
   }
 }
