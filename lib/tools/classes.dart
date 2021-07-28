@@ -22,3 +22,9 @@ class ThemePreference {
     return pref.getBool(THEME_STATUS) ?? false;
   }
 }
+//test for modifying this repo
+/* ** UNNECESSARY CODE BELOW **  */
+
+void printSomething() {
+  print('something');
+}
